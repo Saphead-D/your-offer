@@ -16,7 +16,6 @@ public class MergeSort {
         sort(arr, left, mid);
         sort(arr, mid+1, right);
         merge(arr, left, mid, right);
-        Collections.sort(new ArrayList<>());
     }
 
     private static void merge(int[] arr, int left, int mid, int right) {
