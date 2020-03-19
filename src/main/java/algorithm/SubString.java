@@ -41,6 +41,7 @@ public class SubString {
                 //以fi(i)子串为起始
                 builder = new StringBuilder(str.substring(pos[letterNum] + 1, i+1));
                 set.add(str.substring(pos[letterNum] + 1, i+1));
+
             }
             pos[letterNum] = i;//更新字母出现位置
             if (curLength > maxLength){
