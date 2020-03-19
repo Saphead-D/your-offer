@@ -48,13 +48,13 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int a = 5;
-        int b = 5;
+        int b = 3;
         a = a^b;
         b = a^b;
         a = a^b;
         System.out.println("a=" + a + ",b=" +b);
         Random random = new Random();
-        int[] arr = new int[6];
+        int[] arr = new int[14];
         for (int i=0; i<arr.length; i++){
             arr[i] = random.nextInt(100);
         }
